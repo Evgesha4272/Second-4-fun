@@ -1,0 +1,19 @@
+header {
+    background-color: var(--dark-color);
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 12px;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}

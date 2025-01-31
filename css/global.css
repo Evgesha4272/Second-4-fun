@@ -1,0 +1,88 @@
+:root {
+    --dark-grey-color: #4C4C4C;
+    --grey-color: #6D6E76;
+    --dark-color: #232536;
+    --purple-color: #592EA9;
+    --lavander-color: #F4F  0F8;
+    --yellow-color: #FFD050;
+    --light-color: #FFFFFF;
+    --light-grey: #F4F4F4;
+    --light-yellow-color: #FBF6EA;
+    
+    --padding-btn: 16px 48px;
+
+    --f-size-par: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    overflow-y: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: calc(1310px - 30px);
+    padding-inline: 15px;
+}
+button {
+    font-size: 18px;
+    font-family: 'Sen', sans-serif;
+    padding: var(--padding-btn);
+    cursor: pointer;
+}
+
+button:hover,
+a:hover, 
+li:hover {
+    filter: brightness(80%);
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+h1, .h1 {
+    font-family: 'Sen', sans-serif;
+    line-height: 64px;
+    font-size: 56px;
+}
+h2, .h2 {
+    font-family: 'Sen', sans-serif;
+    line-height: 64px;
+    font-size: 48px;
+}
+h3, .h3 {
+    font-family: 'Sen', sans-serif;
+    line-height: 48px;
+    font-size: 36px;
+}
+h4, .h4 {
+    font-family: 'Sen', sans-serif;
+    line-height: 36px;
+    font-size: 28px;
+}
+h5, .h5 {
+    font-family: 'Sen', sans-serif;
+    line-height: 32px;
+    font-size: 24px;
+}
+h6, .h6 {
+    font-family: 'Sen', sans-serif;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+
